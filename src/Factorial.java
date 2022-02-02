@@ -14,6 +14,7 @@ public class Factorial {
     public static void main(String args[]){
         String name = "Verica";
         System.out.println(String.format("Welcome %s",name));
+        System.out.println("Input one number");
         System.out.println("Input one number: ");
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
